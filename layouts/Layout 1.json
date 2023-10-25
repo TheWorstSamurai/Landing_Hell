@@ -7,7 +7,7 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "TiledBackground",
+					"type": "TiledBackground3",
 					"properties": {
 						"initially-visible": true,
 						"origin": "top-left",
@@ -29,10 +29,10 @@
 					"instanceVariables": {},
 					"behaviors": {},
 					"world": {
-						"x": 0,
-						"y": 18,
-						"width": 1299,
-						"height": 941,
+						"x": -9,
+						"y": -7,
+						"width": 667,
+						"height": 542,
 						"originX": 0,
 						"originY": 0,
 						"color": [
