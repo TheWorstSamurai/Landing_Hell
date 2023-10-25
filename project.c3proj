@@ -27,7 +27,11 @@
 			"TiledBackground",
 			"TiledBackground2",
 			"Sprite",
-			"TiledBackground3"
+			"TiledBackground3",
+			"Sprite2",
+			"Sprite3",
+			"Sprite4",
+			"Sprite5"
 		],
 		"subfolders": []
 	},
