@@ -80,24 +80,37 @@
 			"subLayers": [],
 			"instances": [
 				{
-					"type": "Sprite2",
+					"type": "player",
 					"properties": {
 						"initially-visible": true,
-						"initial-animation": "Animation 1",
+						"initial-animation": "idle",
 						"initial-frame": 0,
 						"enable-collisions": true,
 						"live-preview": false
 					},
 					"uid": 3,
 					"instanceVariables": {},
-					"behaviors": {},
+					"behaviors": {
+						"8Direction": {
+							"properties": {
+								"max-speed": 200,
+								"acceleration": 600,
+								"deceleration": 500,
+								"directions": "dir-4",
+								"set-angle": "smooth",
+								"allow-sliding": false,
+								"default-controls": true,
+								"enabled": true
+							}
+						}
+					},
 					"world": {
-						"x": 257,
-						"y": -127,
-						"width": 256,
-						"height": 256,
-						"originX": 0.5,
-						"originY": 0.5,
+						"x": 307,
+						"y": 288,
+						"width": 40,
+						"height": 60,
+						"originX": 2.875,
+						"originY": 2.05,
 						"color": [
 							1,
 							1,
@@ -109,7 +122,7 @@
 					}
 				},
 				{
-					"type": "Sprite3",
+					"type": "Big_Boi",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
@@ -138,7 +151,7 @@
 					}
 				},
 				{
-					"type": "Sprite5",
+					"type": "shootingEffects",
 					"properties": {
 						"initially-visible": true,
 						"initial-animation": "Animation 1",
