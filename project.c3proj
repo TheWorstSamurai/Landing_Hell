@@ -26,6 +26,13 @@
 			"name": "Tilemap",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "EightDir",
+			"name": "8 Direction",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "xvnjdqm6wa4",
@@ -35,10 +42,10 @@
 			"TiledBackground2",
 			"Sprite",
 			"TiledBackground3",
-			"Sprite2",
-			"Sprite3",
+			"player",
+			"Big_Boi",
 			"Sprite4",
-			"Sprite5",
+			"shootingEffects",
 			"Sprite6",
 			"Tilemap",
 			"Tilemap2"
