@@ -100,31 +100,6 @@
 				}
 			],
 			"sid": 602669092901750
-		},
-		{
-			"eventType": "block",
-			"conditions": [
-				{
-					"id": "on-key-pressed",
-					"objectClass": "Keyboard",
-					"sid": 299820785838852,
-					"parameters": {
-						"key": 38
-					}
-				}
-			],
-			"actions": [
-				{
-					"id": "set-animation",
-					"objectClass": "player",
-					"sid": 307017727487869,
-					"parameters": {
-						"animation": "\"jump\"",
-						"from": "beginning"
-					}
-				}
-			],
-			"sid": 818956333644574
 		}
 	],
 	"sid": 984043481411393
