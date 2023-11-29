@@ -54,9 +54,10 @@
 			"Sprite4",
 			"shootingEffects",
 			"Sprite6",
-			"Tilemap",
+			"platform",
 			"Tilemap2",
-			"Keyboard"
+			"Keyboard",
+			"player_box"
 		],
 		"subfolders": []
 	},
