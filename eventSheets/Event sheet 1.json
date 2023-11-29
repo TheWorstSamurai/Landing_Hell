@@ -1,5 +1,31 @@
 {
 	"name": "Event sheet 1",
-	"events": [],
+	"events": [
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 253665576102392,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 532094853333679,
+					"parameters": {
+						"animation": "\"run\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 779076865729789
+		}
+	],
 	"sid": 984043481411393
 }

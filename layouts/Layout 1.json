@@ -97,7 +97,7 @@
 								"acceleration": 600,
 								"deceleration": 500,
 								"directions": "dir-4",
-								"set-angle": "smooth",
+								"set-angle": "no",
 								"allow-sliding": false,
 								"default-controls": true,
 								"enabled": true
@@ -105,8 +105,8 @@
 						}
 					},
 					"world": {
-						"x": 307,
-						"y": 288,
+						"x": 299,
+						"y": 540,
 						"width": 40,
 						"height": 60,
 						"originX": 2.875,
