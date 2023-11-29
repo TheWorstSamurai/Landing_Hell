@@ -7,7 +7,7 @@
 				{
 					"id": "key-is-down",
 					"objectClass": "Keyboard",
-					"sid": 253665576102392,
+					"sid": 439516502321129,
 					"parameters": {
 						"key": 39
 					}
@@ -17,14 +17,114 @@
 				{
 					"id": "set-animation",
 					"objectClass": "player",
-					"sid": 532094853333679,
+					"sid": 438437385043014,
 					"parameters": {
-						"animation": "\"run\"",
+						"animation": "\"Right_run\"",
 						"from": "beginning"
 					}
 				}
 			],
 			"sid": 779076865729789
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 994788745623867,
+					"parameters": {
+						"key": 39
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 835982357082284,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 390859163229641
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-released",
+					"objectClass": "Keyboard",
+					"sid": 297362153011979,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 269180232498990,
+					"parameters": {
+						"animation": "\"Left_idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 646925319927090
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "key-is-down",
+					"objectClass": "Keyboard",
+					"sid": 953296655052970,
+					"parameters": {
+						"key": 37
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 907495859617083,
+					"parameters": {
+						"animation": "\"left_run\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 602669092901750
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-key-pressed",
+					"objectClass": "Keyboard",
+					"sid": 299820785838852,
+					"parameters": {
+						"key": 38
+					}
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 307017727487869,
+					"parameters": {
+						"animation": "\"jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 818956333644574
 		}
 	],
 	"sid": 984043481411393
