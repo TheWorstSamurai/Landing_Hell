@@ -100,6 +100,144 @@
 				}
 			],
 			"sid": 602669092901750
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-moved",
+					"objectClass": "player_box",
+					"sid": 609653171523477,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 191979233667280,
+					"parameters": {
+						"animation": "\"Right_run\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 953070684355667
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-jump",
+					"objectClass": "player_box",
+					"sid": 509983801122634,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 755077804008270,
+					"parameters": {
+						"animation": "\"jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 409004115820984
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-stopped",
+					"objectClass": "player_box",
+					"sid": 209293987578284,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 295430193587175,
+					"parameters": {
+						"animation": "\"idle\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 899098065643528
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-fall",
+					"objectClass": "player_box",
+					"sid": 877836286178577,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 904310633209677,
+					"parameters": {
+						"animation": "\"left_run\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 795560833453566
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "on-jump",
+					"objectClass": "player_box",
+					"sid": 568330660928437,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 152300418861082,
+					"parameters": {
+						"animation": "\"jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 450082411962931
+		},
+		{
+			"eventType": "block",
+			"conditions": [
+				{
+					"id": "is-moving",
+					"objectClass": "player_box",
+					"sid": 271998263965968,
+					"behaviorType": "Platform"
+				}
+			],
+			"actions": [
+				{
+					"id": "set-animation",
+					"objectClass": "player",
+					"sid": 226181696964061,
+					"parameters": {
+						"animation": "\"jump\"",
+						"from": "beginning"
+					}
+				}
+			],
+			"sid": 968950838187030
 		}
 	],
 	"sid": 984043481411393

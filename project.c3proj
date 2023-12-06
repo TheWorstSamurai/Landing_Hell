@@ -1,6 +1,6 @@
 {
 	"projectFormatVersion": 1,
-	"savedWithRelease": 35800,
+	"savedWithRelease": 36802,
 	"name": "Landing Hell",
 	"runtime": "c3",
 	"useWorker": "auto",
@@ -38,6 +38,13 @@
 			"type": "behavior",
 			"id": "EightDir",
 			"name": "8 Direction",
+			"author": "Scirra",
+			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
 			"author": "Scirra",
 			"bundled": false
 		}
