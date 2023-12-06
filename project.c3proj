@@ -40,6 +40,13 @@
 			"name": "8 Direction",
 			"author": "Scirra",
 			"bundled": false
+		},
+		{
+			"type": "behavior",
+			"id": "Platform",
+			"name": "Platform",
+			"author": "Scirra",
+			"bundled": false
 		}
 	],
 	"uniqueId": "xvnjdqm6wa4",
